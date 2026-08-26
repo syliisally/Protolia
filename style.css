@@ -672,10 +672,24 @@ html {
 
   .service-card {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .contact-card {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-data {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .container {
