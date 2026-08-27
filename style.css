@@ -100,11 +100,22 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id] {
+  scroll-margin-top: 90px;
+}
+
 /* HERO */
 
 .hero {
-  padding: 80px 0 50px;
+  padding: 40px 0 100px;
   background: #f7f9fb;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+.hero .row {
+  transform: translateY(-25px);
 }
 
 .hero-label {
@@ -231,7 +242,7 @@ html {
 
 .award-section {
   padding: 0 0 100px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .award-card {
@@ -556,6 +567,13 @@ html {
 
   .section-header {
     margin-bottom: 40px;
+  }
+}
+
+/* 1366 px */
+@media (max-width: 1399px) {
+  .hero-title {
+    font-size: 4rem;
   }
 }
 
